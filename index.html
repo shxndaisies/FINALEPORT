@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>If Else</title>
+<script type="text/javascript">
+function check() 
+{
+if (document.example.answer.value == "DIMAANO") // Fixed password condition
+{
+document.write("<h1 align='center'>Where do you want to start?</h1><table align='center' bgcolor='#28422f' bordercolor='Black' cellpadding='10px' width='50%'>" +
+"<tr>" +
+"<td><font size='5' color='White'><a href='https://shxndaisies.github.io/DIMAANO/index.html' style='color:pink;'>1st Quarter</a> - My first quarter E-Portfolio!</font></td>" +
+"</tr>" +
+"<tr>" +
+"<td><font size='5' color='White'><a href='https://shxndaisies.github.io/DimaanoE-Port/' style='color:pink;'>2nd Quarter</a> - My second quarter E-Portfolio!</font></td>" +
+"</tr>" +
+"<tr>" +
+"<td><font size='5' color='White'><a href='https://shxndaisies.github.io/DimaanoE-Port3/' style='color:pink;'>1st Quarter</a> - My third quarter E-Portfolio!</font></td>" +
+"</tr>" +
+"<tr>" +
+"<td><font size='5' color='White'><a href='https://shxndaisies.github.io/DimaanoEPort4/' style='color:pink;'>2nd Quarter</a> - My fourth quarter E-Portfolio!</font></td>" +
+"</tr>" +
+"</table>");
+} 
+else 
+{
+document.write("Sorry. Try again. Hint: It is MY surname.");
+}
+}
+</script>
+</head>
+<body>
+<center>
+<p>To enter my E-Portfolio, please enter the password! (Hint: It is the surname of a pretty student. CAPSLOCK)</p>
+<form name="example">
+<input type="text" name="answer" value="">
+<input type="button" name="answerbutton" value="SUBMIT" onClick="check()">
+</form>
+</center>
+</body>
+</html>
